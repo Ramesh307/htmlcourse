@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up Page</title>
+</head>
+<body>
+	<nav>
+		<b><a href="home.html">Home</a></b>
+	</nav>
+
+	  <b><h1>Contact Sign Up Page</h1></b>
+	  <h5>Please Note: Firstname, Lastname, Email, Password, are required</h5>
+	<form>
+		First name:
+		<input type="text" name="Firstname" placeholder="Firstname"required>
+		<br><br>
+		last name:
+		<input type="text"name="lastname" placeholder="Lastname" required>
+
+		<br><br><br>
+
+
+		Email:
+		<input type="text"	name="	Email " placeholder="abc@gmail.com" required>
+		<br><br>
+
+
+		Password:
+		<input type="password" name="psw" required><br>
+		<br>
+		Are you over the age of 18?<br>
+		<input type="radio"name="Age" value="Yes" checked>yes<br>
+		<input type="radio"name="Age" value="No" checked>No<br>
+		<br><br>
+
+		Do you have creditcard or paypal(creditcard or paypal)?<br>
+		 <select name="payment"><option value="creditcard">Creditcard</option>
+		 	<option value="paypal">Paypal</option>
+		 </select>
+
+		 <br><br>
+		  Enter your dob(before 1980-01-01):
+		  <input type ="date"name="bday" max="1979-12-31" required><br><br>
+
+		  Message us:<br>
+		  <textarea name="message"rows="10"cols=50 required></textarea><br>
+
+		   
+		  
+		  <hr>
+
+		  <input type="submit"  onclick="alert('submitted')" value="submit" >
+		  <input type="reset" ><br><br>
+
+		   
+
+
+	</form>
+
+</body>
+</html>
